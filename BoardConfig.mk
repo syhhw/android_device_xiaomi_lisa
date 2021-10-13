@@ -23,5 +23,9 @@ TARGET_KERNEL_CONFIG := vendor/lahaina_GKI
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8350
 
+# Partitions
+BOARD_DTBOIMG_PARTITION_SIZE := 25165824
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 113254576128
+
 # Include proprietary files
 include vendor/xiaomi/lisa/BoardConfigVendor.mk
